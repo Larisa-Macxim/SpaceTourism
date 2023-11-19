@@ -1,0 +1,270 @@
+body {
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-left: 55px;
+}
+.nav-container .img2 {
+  width: 473px;
+  height: 1px;
+  opacity: 25%;
+  position: absolute;
+  left: 230px;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  width: 830px;
+  height: 96px;
+  cursor: pointer;
+}
+
+.nav1 h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+}
+
+.style-dest h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 28 px;
+  line-height: 34px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 187px;
+  left: 103px;
+}
+
+.style-dest span {
+  color: #c1bbbb;
+}
+
+.destination1 {
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  width: 285px;
+  height: 34px;
+  position: absolute;
+  left: 832px;
+  top: 263px;
+}
+
+.destination1 button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 70px;
+  height: 48px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.moon {
+  display: flex;
+  flex-direction: row;
+}
+
+.moon img {
+  width: 445px;
+  height: 445px;
+  position: absolute;
+  top: 343px;
+  left: 230px;
+}
+
+#h1-destination {
+  font-family: "Bellefair", serif;
+  position: absolute;
+  left: 837px;
+  top: 279px;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 115px;
+}
+
+#paragraph-destination {
+  width: 444px;
+  height: 128px;
+  position: absolute;
+  left: 844px;
+  top: 446px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.distance,
+.time {
+  align-self: flex-end;
+}
+
+.distance {
+  position: absolute;
+  left: 837px;
+  top: 626px;
+}
+.distance hr {
+  width: 444px;
+  height: 1px;
+  background-color: #383b4b;
+}
+
+.time {
+  left: 1044px;
+  position: absolute;
+  top: 637px;
+}
+
+#h4-distance,
+#h4-time {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 3px;
+}
+
+#h1-distance,
+#h1-time {
+  font-family: "Bellefair", serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 768px;
+    height: 1024px;
+  }
+  .img2 {
+    display: none;
+  }
+  .nav1 {
+    width: 450px;
+    height: 96px;
+  }
+  .nav1 span {
+    display: none;
+  }
+  .nav1 h4 {
+    width: 85px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    padding: 25px;
+  }
+
+  .style-dest h1 {
+    width: 308px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 4px;
+  }
+
+  .destination1 button {
+    width: 39px;
+    height: 19px;
+    position: relative;
+    top: 427px;
+    left: -600px;
+  }
+
+  #destination-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  #h1-destination {
+    width: 266px;
+    height: 92px;
+    font-size: 73px;
+    line-height: 92px;
+    text-align: center;
+    position: relative;
+    top: 523px;
+    left: 244px;
+  }
+  #paragraph-destination {
+    width: 573px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #d0d6f9;
+    position: relative;
+    top: 491px;
+    left: 102px;
+  }
+
+  .distance hr {
+    width: 573px;
+    position: relative;
+    top: 257px;
+    left: -419px;
+  }
+
+  #h4-distance,
+  #h4-time {
+    width: 223px;
+    height: 17px;
+    text-align: center;
+    color: #d0d6f9;
+  }
+  #h4-distance {
+    position: relative;
+    top: 254px;
+    left: -384px;
+  }
+
+  #h4-time {
+    position: relative;
+    top: 337px;
+    left: -501px;
+  }
+  #h1-distance,
+  #h1-time {
+    width: 223px;
+    height: 32px;
+    text-align: center;
+  }
+
+  #h1-distance {
+    position: relative;
+    top: 248px;
+    left: -384px;
+  }
+
+  #h1-time {
+    position: relative;
+    top: 328px;
+    left: -507px;
+  }
+}

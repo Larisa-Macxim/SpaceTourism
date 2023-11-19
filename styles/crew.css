@@ -1,0 +1,231 @@
+body {
+  background-image: url(../assets/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-left: 55px;
+}
+.nav-container .img2 {
+  width: 473px;
+  height: 1px;
+  opacity: 25%;
+  position: absolute;
+  left: 230px;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  width: 830px;
+  height: 96px;
+  cursor: pointer;
+}
+
+.nav1 h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+}
+
+.style-h1 h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 28 px;
+  line-height: 34px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 187px;
+  left: 121px;
+}
+
+.style-h1 span {
+  color: #c1bbbb;
+}
+
+.style-dest {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.dest2 {
+  display: flex;
+  flex-direction: column;
+}
+#h3-title {
+  width: 388px;
+  height: 37px;
+  font-family: "Bellefair", serif;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #c1bbbb;
+  margin: 0px;
+  left: 124px;
+  position: absolute;
+  top: 356px;
+}
+
+#name {
+  width: 629px;
+  height: 64px;
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  line-height: 65px;
+  font-weight: normal;
+  margin: 0px;
+  left: 120px;
+  position: absolute;
+  top: 410px;
+}
+
+#description-person {
+  width: 444px;
+  height: 128px;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  margin: 0px;
+  left: 123px;
+  position: absolute;
+  top: 509px;
+}
+
+#img-person {
+  width: 469px;
+  height: 554px;
+  position: absolute;
+  top: 220px;
+  left: 881px;
+}
+
+.style-btn {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 727px;
+  left: 129px;
+}
+
+.style-btn button {
+  background-color: #9d9d9a40;
+  color: transparent;
+  border: none;
+  border-radius: 100px;
+  opacity: 18%;
+  height: 15px;
+  width: 15px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+.style-btn button:focus {
+  background-color: white;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background-image: url(../assets/crew/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 768px;
+    height: 1024px;
+  }
+  .img2 {
+    display: none;
+  }
+  .nav1 {
+    width: 450px;
+    height: 96px;
+  }
+  .nav1 span {
+    display: none;
+  }
+
+  .nav1 h4 {
+    width: 85px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    padding: 25px;
+  }
+
+  .style-h1 h1 {
+    width: 308px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 4px;
+  }
+
+  .dest2 {
+    width: 458px;
+    height: 182px;
+  }
+
+  #h3-title {
+    width: 233px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    opacity: 50%;
+    position: relative;
+    top: 97px;
+    left: -29px;
+  }
+
+  #name {
+    width: 457px;
+    height: 46px;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    top: 113px;
+    left: -137px;
+  }
+  #description-person {
+    width: 592px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #d0d6f9;
+    position: relative;
+    top: 129px;
+    left: -190px;
+  }
+  #img-person {
+    width: 369px;
+    height: 532px;
+    position: relative;
+    top: 396px;
+    left: 339px;
+  }
+
+  .style-btn {
+    position: absolute;
+    top: 479px;
+    left: 350px;
+  }
+
+  .style-btn button {
+    background-color: white;
+  }
+}
